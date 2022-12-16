@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: .3em auto;    
+}
+
+.headings {
+    text-align: center;
+}
+
+.grid {
+    width: 456px;
+    height: 456px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border: 2px solid black;
+
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: solid black 1px;
+    border-radius: 50%;
+}
+
+.mole {
+    background-image: url("images/mole.png");
+    background-size: cover;
+}
